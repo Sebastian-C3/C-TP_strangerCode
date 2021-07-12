@@ -116,13 +116,13 @@ void resultadoPelea (float fuerza){
 int nivelConfianza (int confianza){
 
 	switch(confianza){
-		case 1:
+		case OPC_1_BAJA:
 			printf("\n%s %s", MSJ_NIVEL_CONFIANZA, MSJ_MENU_BAJA);
 			break;
-		case 2:
+		case OPC_2_MEDIA:
 			printf("\n%s %s", MSJ_NIVEL_CONFIANZA, MSJ_MENU_MEDIA);
 			break;
-		case 3:
+		case OPC_3_ALTA:
 			printf("\n%s %s", MSJ_NIVEL_CONFIANZA, MSJ_MENU_ALTA);
 			break;
 	}
